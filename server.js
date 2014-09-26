@@ -40,7 +40,9 @@ function onRequest(request, response) {
       transporter.sendMail(mailContext);
     });
   }
-  var ext = path.extname(filename);
+  filename = filename.split('?')[0];
+  var ext = filename.substr(filename.lastIndexOf("."));
+  console.log(ext);
   var localPath = __dirname;
   var validExtensions = {
     ".html" : "text/html",
@@ -50,7 +52,11 @@ function onRequest(request, response) {
     ".txt" : "text/plain",
     ".jpg" : "image/jpeg",
     ".gif" : "image/gif",
-    ".png" : "image/png"
+    ".png" : "image/png",
+    ".woff" : "application/x-font-woff",
+    ".ttf" : "application/x-font-ttf",
+    ".svg" : "image/svg+xml",
+    ".ico" : "image/x-icon"
   };
   var isValidExt = validExtensions[ext];
   if (isValidExt) {

@@ -3,6 +3,10 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.img-logo {
+    height: 20px;
+}
+
 
 .help-block {
     color: #fff;
@@ -333,9 +337,9 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 20px;
 }
@@ -356,10 +360,10 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+        text-transform: none;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 25px;
-        font-weight: 300;
+        font-size: 15px;
+        font-weight: 100;
         line-height: 20px;
     }
 }
