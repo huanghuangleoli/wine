@@ -46,9 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                        <img src="img/logos/dinneract_logo.png" class="img-responsive img-logo" alt="">
-</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Dinneract</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,9 +57,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Roles</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Customer</a>
                     </li>
                 </ul>
             </div>
@@ -74,8 +69,8 @@
   <header>
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Dinneract!</div>
-        <div class="intro-heading">Dinneract is a community-powered food social shopping website. With Dinneract, you create a following by showing off your culinary skills, sharing cooking tips, and connecting followers to your favorite products. It is a community where foodies gain instant access to great meals and recipes, chefs interact with followers while promoting their services, and small food suppliers market their products directly to customers in an efficient and economical way.</div>
+        <div class="intro-lead-in"><img src="img/logos/dinneract_logo.png" class="img-responsive img-logo" alt=""></div>
+        <div class="intro-heading">Dinneract is a community-powered food social shopping website. With Dinneract, you create a following by showing off your culinary skills, sharing cooking tips, and connecting followers to your favorite products.</div>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="form-group">
             <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Please enter your email address.">
@@ -84,10 +79,10 @@
           <div>
             <span class="role-select">I am a</span>
             <span class="btn-group">
-              <button type="foodie" class="btn btn-default btnrole">Foodie</button>
-              <button type="cook" class="btn btn-default btnrole">Cook</button>
-              <button type="supplier" class="btn btn-default btnrole">Supplier</button>
-              <button type="artist" class="btn btn-default btnrole">Artist</button>
+              <button type="foodie" id="foodie" class="btn btn-default btnrole">Foodie</button>
+              <button type="cook" id="cook" class="btn btn-default btnrole">Cook</button>
+              <button type="supplier" id="supplier" class="btn btn-default btnrole">Supplier</button>
+              <button type="artist" id="artist" class="btn btn-default btnrole">Artist</button>
             </span>
             <span>               <a href="#team" class="page-scroll btn btn-default btnmore">Tell Me More</a> </span>
             <div id="success"></div>
@@ -113,14 +108,6 @@
                         <img src="img/team/foodie.jpg" class="img-responsive img-circle" alt="">
                         <h4>FOODIE</h4>
                         <p class="text-muted">Get what please your eyes instantly with just a few clicks</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -128,14 +115,6 @@
                         <img src="img/team/chef.jpg" class="img-responsive img-circle" alt="">
                         <h4>CHEF</h4>
                         <p class="text-muted">Promote your cooking skills and sell services</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -143,14 +122,6 @@
                         <img src="img/team/supplier.jpg" class="img-responsive img-circle" alt="">
                         <h4>MERCHANT</h4>
                         <p class="text-muted">Get direct access to your customers and market up your products</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -162,43 +133,7 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Happy Customer</h2>
-                    <h3 class="section-subheading text-muted">Other than "Thank you", listen how our happy customer say?</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
     <footer>
         <div class="container">
@@ -208,19 +143,19 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a>Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a>Terms of Use</a>
                         </li>
                     </ul>
                 </div>

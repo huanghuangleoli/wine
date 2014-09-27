@@ -9,6 +9,9 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var email = $("input#email").val();
+            var foodie = $("button#foodie");
+
+            console.log("==" + foodie);
             $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
