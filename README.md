@@ -1,4 +1,4 @@
 wine
 ====
 
-old full version.
+This is a nodejs + bootstrap website.
